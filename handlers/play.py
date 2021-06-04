@@ -93,9 +93,9 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
 
 
 
-@Client.on_message(command("play") & other_filters)
+@Client.on_message(command("oynat") & other_filters)
 @errors
-async def play(_, message: Message):
+async def oynat(_, message: Message):
 
     lel = await message.reply("🔄 **Şimdi** Buluyorum Efendim 😎...")
     sender_id = message.from_user.id
