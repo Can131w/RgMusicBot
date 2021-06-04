@@ -38,7 +38,7 @@
 
 <h3 align="centre"> Heroku </h4> 
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Mehmetbaba06/Voice_Music2021)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Mehmetbaba06/Eskivc_MuzikGelistirme)
 
 STRING_NAME i buradan alın ;
 
