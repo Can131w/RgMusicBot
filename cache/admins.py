@@ -1,4 +1,4 @@
-# Burda gördüklerinizi ben yazmadım ama uğraştım bro @EfsaneStar telegramdayım 
+# Yayında ve yapımda emeği geçen herkese teşekkürler. 
 from typing import List, Dict, Union
 
 
