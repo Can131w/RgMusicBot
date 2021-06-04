@@ -1,1 +1,1 @@
-# Yayında ve yapımda emeği geçen herkese teşekkürler. 
+# @EfsaneStar - MehmetBaba06 - SohbetSkyfall 

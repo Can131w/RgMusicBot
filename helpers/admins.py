@@ -1,4 +1,4 @@
-# Kurucu - @EfsaneStar - group - Sohbetskyfall 
+# Yayında ve yapımda emeği geçen herkese teşekkürler. 
 from typing import List
 
 from pyrogram.types import Chat, User

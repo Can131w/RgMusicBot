@@ -1,5 +1,4 @@
-# Yayında ve yapımda emeği geçen herkese teşekkürler. 
-
+# @EfsaneStar - MehmetBaba06 - SohbetSkyfall 
 from typing import Union, List
 
 from pyrogram import filters

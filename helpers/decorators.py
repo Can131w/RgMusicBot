@@ -1,5 +1,4 @@
-# Vallahi müzik botu kolayıma geliyor Userbot yapımına geçiyoruz.
- 
+# Yayında ve yapımda emeği geçen herkese teşekkürler. 
 from typing import Callable
 
 from pyrogram import Client
