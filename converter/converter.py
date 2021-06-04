@@ -1,4 +1,3 @@
-# Yayında ve yapımda emeği geçen herkese teşekkürler. 
 from os import path
 import asyncio
 
