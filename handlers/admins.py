@@ -57,12 +57,14 @@ async def bitir(_, message: Message):
         await message.reply_text(f"**{BN} :-** ❌ Müzik botu kapandı. Efendim!")
 
 
+
+
 @Client.on_message(command("atla") & other_filters)
 @errors
 @authorized_users_only
 async def atla(_, message: Message):
     if message.chat.id not in callsmusic.pytgcalls.active_calls:
-        await message.reply_text(f"**{BN} :-** 🙄 Atlatılmak için hiçbir şey oynatılmıyor!")
+        await message.reply_text("❗ geçmek için hiçbir şey oynamıyor🤪!")
     else:
         callsmusic.queues.task_done(message.chat.id)
 
@@ -71,7 +73,7 @@ async def atla(_, message: Message):
         else:
             callsmusic.pytgcalls.change_stream(
                 message.chat.id,
-                callsmusic.queues.get(message.chat.id)["file_path"]
+                callsmusic.queues.get(message.chat.id)["file"]
             )
 
-        await message.reply_text(f"**{BN} :-**➡️  Bir Sonraki Müziğe Geçildi!")
+        await message.reply_text("➡️ Geçerli şarkı atlatıldı!")
