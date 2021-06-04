@@ -17,7 +17,7 @@ async def start(_, message: Message):
             InlineKeyboardButton(" Group 💬", url="https://t.me/sohbetskyfall"),
             InlineKeyboardButton("Channel 📣", url="https://t.me/kanalEfsanestar")
             ],[
-            InlineKeyboardButton("Kurucu Sahip 👨‍💻", url="https://t.me/Mehmett_12"),
+            InlineKeyboardButton("Katkıda Bulunan 😎", url="https://t.me/Mehmett_12"),
             InlineKeyboardButton("Kurucu Sahip 👨‍💻", url="https://t.me/EfsaneStar")
             ]]
         ),
